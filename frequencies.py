@@ -6,9 +6,9 @@ def frequencies(items):
 
     for item in items:
         if item not in frequencies:
-            frequencies.item = 1
+            frequencies[item] = 1
         else:
-            frequencies.item += 1
+            frequencies[item] += 1
     
     # Your code goes here
     print(items)
